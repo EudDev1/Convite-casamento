@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background: whitesmoke;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.img-main {
+    width: 420px;
+    height: 350px;
+}
+
+h1 {
+    font-size: 65px;
+    font-weight: 700px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 25px;
+    width: 700px;
+    text-align: center;
+    margin: auto;
+}
+
+.container {
+    width: 100%;
+}
+
+.section-objects {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.p-main {
+    font-size: 20px;
+    width: 700px;
+    text-align: center;
+    margin: auto;
+}
+
+.img-product {
+    height: 160px;
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
+
+h3 {
+    background: black;
+    color: whitesmoke;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.product {
+    border: 2px solid black;
+    border-radius: 5px;
+    height: auto;
+    width: 350px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.img-pix {
+    height: 50px;
+    display: block;
+    padding: 10px;
+    margin: auto;
+}
+
+/* Media query */
+
+@media (max-width:1200px) {
+    .header {
+        display: block;
+        width: auto;
+        margin-top: 20px;
+    }
+
+    .p-main {
+        width: auto;
+        margin-bottom: 15px;
+    }
+
+    .texts {
+        width: 300px;
+        font-size: 35px;
+        margin: auto;
+    }
+
+    h1 {
+        text-align: center;
+        display: inline-block;
+        margin: auto;
+        margin-left: -10px;
+    }
+
+    h2 {
+        align-items: center;
+        text-align: center;
+        width: auto;
+        margin-bottom: 12px;
+    }
+
+    .img-main {
+        height: 275px;
+        width: 350px;
+        display: block;
+        margin: auto;
+    }
+
+    .section-objects {
+        padding: 5px;
+    }
+
+    .product {
+        width: 300px;
+        height: auto;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+}
